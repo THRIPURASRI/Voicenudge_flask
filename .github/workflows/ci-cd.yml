@@ -1,62 +1,64 @@
-name: CI/CD Pipeline – VoiceNudge Backend
+name: CI/CD – VoiceNudge Backend
 
 on:
   push:
-    branches: ["main"]
+    branches: [ main ]
+    paths:
+      - "voicenudge_backend/**"
+      - ".github/workflows/**"
   pull_request:
-    branches: ["main"]
-
-env:
-  IMAGE_NAME: voicenudge-backend
+    branches: [ main ]
+    paths:
+      - "voicenudge_backend/**"
 
 jobs:
-  build-test-push:
+  build-test-and-push:
     runs-on: ubuntu-latest
 
+    # All `run:` commands will execute inside voicenudge_backend
+    defaults:
+      run:
+        working-directory: voicenudge_backend
+
     steps:
-    # Checkout source code
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    # Set up Python
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    # Install dependencies
-    - name: Install Dependencies for Tests
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest
+      - name: Install system deps (ffmpeg for audio)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
 
-    # Run Tests
-    - name: Run Pytest
-      run: pytest --maxfail=1 --disable-warnings
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    # Set up Docker Buildx
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
+      - name: Run pytest
+        env:
+          FLASK_ENV: testing
+        run: |
+          pytest
 
-    # Log in to DockerHub
-    - name: Login to Docker Hub
-      uses: docker/login-action@v2
-      with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+      # Only push image on main branch
+      - name: Log in to Docker Hub
+        if: github.ref == 'refs/heads/main'
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    # Build & Push Docker image
-    - name: Build and Push Docker Image
-      uses: docker/build-push-action@v4
-      with:
-        context: .
-        file: Dockerfile
-        push: true
-        tags: |
-          ${{ secrets.DOCKERHUB_USERNAME }}/voicenudge-backend:latest
-          ${{ secrets.DOCKERHUB_USERNAME }}/voicenudge-backend:${{ github.sha }}
+      - name: Build Docker image
+        if: github.ref == 'refs/heads/main'
+        run: |
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/voicenudge-backend:latest .
 
-    # Success message
-    - name: Deployment Complete
-      run: echo "Docker image pushed successfully!"
+      - name: Push Docker image
+        if: github.ref == 'refs/heads/main'
+        run: |
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/voicenudge-backend:latest
