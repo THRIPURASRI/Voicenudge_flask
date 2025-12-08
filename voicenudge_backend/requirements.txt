@@ -1,0 +1,68 @@
+# ---------------------
+# Core Flask + Database
+# ---------------------
+Flask
+Flask-Cors
+Flask-Migrate
+Flask-SQLAlchemy
+psycopg2-binary
+python-dotenv
+
+# ---------------------
+# Authentication & Security
+# ---------------------
+Flask-JWT-Extended
+Werkzeug
+
+# ---------------------
+# Email & Scheduling
+# ---------------------
+Flask-Mail
+Flask-APScheduler
+
+# ---------------------
+# NLP
+# ---------------------
+nltk
+spacy
+dateparser
+
+# ---------------------
+# Machine Learning & Data
+# ---------------------
+scikit-learn
+joblib
+pandas
+numpy
+
+# ---------------------
+# Whisper (Speech-to-Text)
+# ---------------------
+openai-whisper
+# optional: faster inference (GPU-optimized)
+# faster-whisper
+
+# ---------------------
+# Google Cloud (Optional, if you enable Google STT/Translate later)
+# ---------------------
+google-cloud-speech
+google-cloud-translate
+
+# ---------------------
+# Audio Handling
+# ---------------------
+pydub
+
+# ---------------------
+# Testing
+# ---------------------
+pytest
+pytest-flask
+# ---------------------
+# Voice Authentication
+# ---------------------
+torch>=2.0.0
+torchaudio>=2.0.0
+speechbrain>=0.5.14
+scipy>=1.10.0
+gunicorn

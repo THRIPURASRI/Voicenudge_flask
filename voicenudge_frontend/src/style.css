@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+/* Enhanced Toast Animations and Responsive Design */
+@layer components {
+  /* Custom toast container styling */
+  .toast-container {
+    @apply pointer-events-none;
+  }
+  
+  /* Toast animation keyframes */
+  @keyframes toast-slide-in {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes toast-slide-out {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes toast-bounce-in {
+    0% {
+      transform: scale(0.3) translateX(100%);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05) translateX(-5%);
+    }
+    70% {
+      transform: scale(0.9) translateX(0);
+    }
+    100% {
+      transform: scale(1) translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes toast-pulse {
+    0%, 100% {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    50% {
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.2), 0 15px 20px -5px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  /* Toast responsive design */
+  @media (max-width: 640px) {
+    .toast-container {
+      @apply px-4;
+    }
+    
+    .toast {
+      @apply min-w-0 max-w-full mx-2;
+    }
+  }
+  
+  /* Success toast specific animations */
+  .toast-success {
+    animation: toast-bounce-in 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* Error toast specific animations */
+  .toast-error {
+    animation: toast-slide-in 0.4s ease-out;
+  }
+  
+  /* Loading toast specific animations */
+  .toast-loading {
+    animation: toast-pulse 2s infinite;
+  }
+  
+  /* Hover effects for interactive toasts */
+  .toast:hover {
+    transform: translateX(-5px) scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+/* Custom scrollbar for toast container */
+.toast-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.toast-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.toast-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.toast-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}

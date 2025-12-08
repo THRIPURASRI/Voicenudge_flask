@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.env.*
+venv/
+.venv/
+voice-env/
+*.log
+*.cache
+tests/
+pretrained_models/
+models/

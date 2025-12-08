@@ -1,0 +1,61 @@
+{% extends "email_base.html" %}
+
+{% block content %}
+<div class="reminder-notice">
+    <div style="text-align: center; margin-bottom: 25px;">
+        <div style="display: inline-block; background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%); color: white; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+            ⏰ Due Reminder
+        </div>
+    </div>
+    
+    <p style="font-size: 18px; color: #2d3748; margin-bottom: 25px; text-align: center;">
+        <strong>Your task is due soon!</strong> Don't let it slip away. 🎯
+    </p>
+    
+    <div class="task-card">
+        <h2 class="task-title">📋 {{ task.title or task.text }}</h2>
+        
+        <div class="task-details">
+            {% if task.category %}
+            <div class="detail-row">
+                <span class="detail-icon">🏷️</span>
+                <span><strong>Category:</strong> {{ task.category }}</span>
+            </div>
+            {% endif %}
+            
+            <div class="detail-row">
+                <span class="detail-icon">⏰</span>
+                <span><strong>Due Date:</strong> {{ due_date_formatted }}</span>
+            </div>
+            
+            {% if task.priority %}
+            <div class="detail-row">
+                <span class="detail-icon">⚡</span>
+                <span><strong>Priority:</strong> 
+                    <span class="priority-badge priority-{{ task.priority.lower() }}">
+                        {{ task.priority.title() }}
+                    </span>
+                </span>
+            </div>
+            {% endif %}
+            
+            {% if task.description %}
+            <div class="detail-row">
+                <span class="detail-icon">📝</span>
+                <span><strong>Description:</strong> {{ task.description }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <div style="background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%); border-radius: 12px; padding: 20px; margin: 25px 0; border-left: 5px solid #f59e0b;">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <span style="font-size: 24px; margin-right: 10px;">💡</span>
+            <h3 style="margin: 0; color: #92400e; font-size: 16px;">Pro Tip</h3>
+        </div>
+        <p style="margin: 0; color: #92400e; font-size: 14px;">
+            Break down complex tasks into smaller, manageable steps. You've got this! 🌟
+        </p>
+    </div>
+</div>
+{% endblock %}

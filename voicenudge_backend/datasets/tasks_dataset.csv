@@ -1,0 +1,1153 @@
+text,category,priority
+Schedule a meeting today,Work,High
+Pay electricity bill tomorrow at 6 PM,Finance,Medium
+Doctor appointment at 6 PM today,Health,High
+Make Doctor appoint at 6 pm today, Health , High 
+Doctor's appoint at 3 pm today, Health, High 
+Submit project report by Monday,Work,High
+Buy vegetables from market,Errands,Medium
+Call mom,Personal,Low
+Call mom tomorrow at 8 AM,Personal,Low
+Book doctor appointment for next week,Health,Medium
+Study for upcoming exam,Study,High
+Prepare monthly budget,Finance,Medium
+Schedule team meeting for Friday,Work,Medium
+Clean the house on Saturday,Errands,Low
+Go for evening walk,Health,Low
+Complete Python assignment,Study,High
+Buy train tickets online,Errands,Medium
+Pay internet bill today,Finance,High
+Attend yoga session,Health,Low
+Plan birthday party for friend,Personal,Medium
+Write weekly progress report,Work,High
+Water the plants,Errands,Low
+Finish reading chapter 5,Study,Medium
+Call the bank for account inquiry,Finance,Medium
+Visit dentist appointment on Tuesday,Health,High
+Buy groceries for the week,Errands,Medium
+Prepare slides for client presentation,Work,High
+Relax and watch a movie,Personal,Low
+Revise statistics notes,Study,High
+Send rent payment,Finance,High
+Check blood pressure,Health,Medium
+Pick up laundry,Errands,Low
+Write research paper draft,Study,High
+Attend office workshop,Work,Medium
+Play chess with brother,Personal,Low
+Write research paper draft,Study,High
+Attend office workshop,Work,Medium
+Play chess with brother,Personal,Low
+Send project update to manager,Work,High
+Fix bugs in code,Work,High
+Schedule client review meeting,Work,High
+Prepare agenda for Monday’s meeting,Work,Medium
+Follow up with HR about leave application,Work,Medium
+Plan next sprint tasks,Work,High
+Update task status in dashboard,Work,Medium
+Reply to pending work emails,Work,Medium
+Submit weekly work summary,Work,High
+Call teammate for project sync,Work,Medium
+Check performance metrics,Work,Medium
+Attend daily stand-up at 10 AM,Work,High
+Organize office files,Work,Low
+Prepare timeline for new project,Work,High
+Update Git repository,Work,Medium
+Create project presentation,Work,High
+Join Zoom meeting at 3 PM,Work,High
+Draft email to client,Work,Medium
+Check feedback from supervisor,Work,Medium
+Set reminder for team catch-up,Work,Low
+Finish reading research paper,Study,Medium
+Solve previous year question papers,Study,High
+Revise database concepts,Study,High
+Read about neural networks,Study,Medium
+Practice Python programming,Study,High
+Complete Data Structures homework,Study,High
+Prepare for internal test,Study,High
+Watch tutorial on machine learning,Study,Medium
+Make notes for Operating Systems,Study,Medium
+Group study session at 7 PM,Study,Medium
+Revise algorithms chapter,Study,High
+Attend lab session tomorrow,Study,Medium
+Submit assignment on Moodle,Study,High
+Prepare flashcards for revision,Study,Low
+Complete online quiz,Study,Medium
+Take mock test for exam,Study,High
+Attend webinar on AI,Study,Medium
+Check exam timetable,Study,Low
+Plan study schedule for week,Study,Medium
+Pay water bill before due date,Finance,High
+Transfer money to savings account,Finance,Medium
+Pay credit card bill today,Finance,High
+Update expense tracker,Finance,Medium
+Buy insurance premium,Finance,High
+Check bank account balance,Finance,Low
+File income tax returns,Finance,High
+Download monthly bank statement,Finance,Low
+Pay EMI for home loan,Finance,High
+Set automatic bill payment,Finance,Medium
+Invest in mutual funds,Finance,Medium
+Check stock market updates,Finance,Low
+Review budget for next month,Finance,Medium
+Add expenses to budget sheet,Finance,Low
+Send invoice to client,Finance,High
+Collect salary slip,Finance,Low
+Plan savings goals,Finance,Low
+Buy health insurance,Finance,Medium
+Withdraw cash from ATM,Finance,Low
+Book appointment with dentist,Health,High
+Take medicine after dinner,Health,High
+Do morning workout,Health,Medium
+Schedule health checkup,Health,Medium
+Go for a run in the morning,Health,Low
+Drink 3 liters of water,Health,Low
+Meditate for 15 minutes,Health,Low
+Sleep by 10 PM,Health,Low
+Take vitamins daily,Health,Medium
+Visit eye doctor next week,Health,Medium
+Buy prescribed medicines,Health,High
+Book physiotherapy session,Health,Medium
+Go for yoga class,Health,Low
+Check body weight,Health,Low
+Eat fruits and vegetables,Health,Low
+Avoid junk food,Health,Low
+Consult doctor about headache,Health,High
+Take COVID booster shot,Health,High
+Go for blood test tomorrow,Health,Medium
+Buy milk and bread,Errands,Low
+Pick up parcel from post office,Errands,Medium
+Drop clothes at dry cleaner,Errands,Low
+Buy stationery for home,Errands,Low
+Clean refrigerator,Errands,Low
+Buy detergent and soap,Errands,Low
+Refill gas cylinder,Errands,Medium
+Collect courier package,Errands,Medium
+Car wash on Sunday,Errands,Low
+Get groceries from supermarket,Errands,Medium
+Post letter to friend,Errands,Low
+Return borrowed book,Errands,Low
+Buy gift for cousin,Errands,Medium
+Get shoe repaired,Errands,Low
+Fix kitchen light,Errands,Medium
+Clean living room,Errands,Low
+Throw garbage,Errands,Low
+Service the bike,Errands,Medium
+Buy birthday card,Errands,Low
+Call dad,Personal,Low
+Text best friend,Personal,Low
+Plan dinner with family,Personal,Medium
+Buy surprise gift for mom,Personal,Medium
+Write a thank you message,Personal,Low
+Read a motivational book,Personal,Low
+Listen to music,Personal,Low
+Take pet for walk,Personal,Low
+Organize photo album,Personal,Low
+Decorate room for festival,Personal,Medium
+Visit grandparents,Personal,Medium
+Plan weekend trip,Personal,Medium
+Arrange clothes in wardrobe,Personal,Low
+Cook dinner tonight,Personal,Medium
+Spend time with family,Personal,Low
+Video call school friends,Personal,Low
+Buy chocolates for kids,Personal,Low
+Prepare lunchbox,Personal,Low
+Celebrate friend’s birthday,Personal,Medium
+Repaint bedroom wall,Errands,Medium
+Clean backyard garden,Errands,Low
+Book car service,Errands,Medium
+Wash dishes,Errands,Low
+Pay electricity bill online,Finance,High
+Track spending habits,Finance,Medium
+Recharge mobile plan,Finance,High
+Set monthly savings target,Finance,Medium
+Update finance spreadsheet,Finance,Low
+Renew Netflix subscription,Finance,Low
+Send college fees,Finance,High
+Check wallet balance,Finance,Low
+Donate to charity,Finance,Low
+Analyze spending report,Finance,Medium
+Complete project documentation,Work,High
+Deploy app to production,Work,High
+Write API documentation,Work,High
+Code review for junior dev,Work,Medium
+Backup project files,Work,Medium
+Respond to Jira comments,Work,Medium
+Review pull requests,Work,Medium
+Fix production issue,Work,High
+Push code to GitHub,Work,Medium
+Create test cases,Work,Medium
+Book doctor for father,Health,High
+Remind mom to take pills,Health,Medium
+Go for regular checkup,Health,Medium
+Join online Zumba class,Health,Low
+Consult nutritionist,Health,Medium
+Drink green tea,Health,Low
+Take evening walk,Health,Low
+Do breathing exercises,Health,Low
+Buy protein powder,Health,Low
+Schedule dental cleaning,Health,Medium
+Prepare for viva exam,Study,High
+Read paper on data mining,Study,Medium
+Practice SQL queries,Study,Medium
+Revise linear algebra notes,Study,High
+Make presentation for seminar,Study,High
+Complete final year project,Study,High
+Submit thesis draft,Study,High
+Attend coding bootcamp,Study,Medium
+Create mind map for revision,Study,Low
+Organize study materials,Study,Low
+Plan study goals for semester,Study,Medium
+Water the indoor plants,Errands,Low
+Vacuum the carpet,Errands,Low
+Replace light bulb,Errands,Low
+Wash car,Errands,Low
+Pick up package,Errands,Medium
+Order groceries online,Errands,Medium
+Clean fish tank,Errands,Low
+Dust furniture,Errands,Low
+Iron clothes,Errands,Low
+Book pest control,Errands,Medium
+Bake cake for party,Personal,Medium
+Write in journal,Personal,Low
+Watch favorite series,Personal,Low
+Play guitar,Personal,Low
+Try new recipe,Personal,Medium
+Plan vacation itinerary,Personal,Medium
+Call friend to apologize,Personal,Low
+Send birthday wishes,Personal,Low
+Take photos for Instagram,Personal,Low
+Buy new shoes,Personal,Medium
+Submit reimbursement form,Work,Medium
+Update resume,Work,Medium
+Apply for leave,Work,Low
+Prepare feedback for intern,Work,Medium
+Organize project files,Work,Low
+Sync Google Calendar,Work,Low
+Send follow-up email,Work,Medium
+Check upcoming deadlines,Work,Medium
+Remind me to send report at 9 AM tomorrow,Work,High
+Schedule a project meeting at 11 AM on Monday,Work,High
+Ping client at 3 PM today,Work,High
+Update presentation before 5 PM,Work,High
+Join the team sync call at 10:30 AM,Work,Medium
+Finish UI bug fixes by 6 PM,Work,High
+Prepare agenda for tomorrow morning meeting,Work,Medium
+Draft weekly summary before Friday noon,Work,Medium
+Follow up with HR at 4 PM,Work,Low
+Submit timesheet by EOD today,Work,High
+Call the bank tomorrow morning,Finance,Medium
+Pay phone bill at 8 PM tonight,Finance,High
+Transfer rent by Friday evening,Finance,High
+Pay EMI on the 10th,Finance,High
+Remind me to send money to mom on Sunday,Finance,Medium
+Set reminder to recharge DTH at 7 PM,Finance,Medium
+Pay water tax this weekend,Finance,High
+Withdraw cash on Tuesday morning,Finance,Medium
+Renew insurance next month on 5th,Finance,High
+Check credit card statement tonight,Finance,Medium
+Book doctor appointment for Thursday at 9 AM,Health,High
+Take medicine at 8 PM every day,Health,High
+Check blood pressure after dinner,Health,Medium
+Go for a jog tomorrow morning at 6 AM,Health,Medium
+Drink a glass of water every hour,Health,Low
+Schedule health checkup next Wednesday,Health,High
+Buy protein powder this Sunday,Health,Low
+Meditate for 10 minutes at 7 AM daily,Health,Low
+Take vitamin supplements before breakfast,Health,Low
+Book physiotherapy appointment on Friday,Health,Medium
+Buy vegetables on Saturday evening,Errands,Medium
+Pick up parcel after office around 7 PM,Errands,Medium
+Get groceries from Big Bazaar at 5 PM,Errands,Medium
+Drop clothes for laundry on Sunday,Errands,Low
+Clean the car tomorrow morning,Errands,Low
+Refill LPG cylinder by Thursday,Errands,Medium
+Replace kitchen bulb after dinner,Errands,Low
+Collect delivery before noon,Errands,Medium
+Wash curtains this weekend,Errands,Low
+Buy birthday gift by next Friday,Errands,Medium
+Call mom in the evening after 8,Personal,Low
+Text best friend good morning at 9 AM,Personal,Low
+Plan dinner date on Saturday night,Personal,Medium
+Visit grandparents this Sunday afternoon,Personal,Medium
+Watch movie with family on Friday,Personal,Low
+Go for coffee with friend at 5 PM,Personal,Low
+Call dad tomorrow morning before 10,Personal,Low
+Write letter to cousin tonight,Personal,Low
+Prepare surprise for mom on Mother’s Day,Personal,High
+Buy gift for friend’s birthday next week,Personal,Medium
+Study data science at 6 AM every day,Study,High
+Finish Python project before 8 PM,Study,High
+Revise notes after lunch,Study,Medium
+Watch tutorial video tonight,Study,Low
+Prepare slides for seminar on Monday,Study,High
+Read textbook for 1 hour after dinner,Study,Medium
+Practice algorithms at 5 PM,Study,High
+Submit assignment by 11:59 PM,Study,High
+Take quiz at 4 PM tomorrow,Study,High
+Complete project proposal by next Wednesday,Study,High
+Check electricity bill before 9 PM,Finance,Medium
+Plan budget for next month on Sunday,Finance,Medium
+Send invoice at 6 PM,Finance,High
+Pay internet bill at 7:30 PM,Finance,High
+Schedule tax consultation on Tuesday,Finance,High
+Check salary credit on 1st of month,Finance,Medium
+Pay rent before 5th,Finance,High
+Book appointment for mom’s eye test,Health,High
+Take cough syrup at night before bed,Health,Low
+Do yoga at 6 AM,Health,Low
+Go for walk after dinner,Health,Low
+Doctor visit on Saturday morning,Health,High
+Check weight every Sunday morning,Health,Low
+Schedule vaccination on 14th,Health,High
+Buy medicines after lunch,Health,Medium
+Book dentist for next Thursday,Health,High
+Attend meditation class at 7 PM,Health,Low
+Wash clothes at 4 PM,Errands,Low
+Iron shirts before going out,Errands,Low
+Clean kitchen after breakfast,Errands,Low
+Buy groceries at 6 PM,Errands,Medium
+Pick up dry cleaning at 8 AM,Errands,Low
+Go to post office before 12,Errands,Medium
+Buy batteries for remote,Errands,Low
+Get haircut on Sunday,Errands,Low
+Repair fan on Wednesday,Errands,Medium
+Buy gas lighter tomorrow,Errands,Low
+Attend cousin’s birthday party at 7 PM,Personal,Medium
+Call friend after 9 PM,Personal,Low
+Cook dinner at 8 PM,Personal,Low
+Go for morning walk at 6:30,Health,Low
+Pray before sleeping,Personal,Low
+Read Bible at 7 AM,Personal,Low
+Visit temple on Friday evening,Personal,Low
+Plan weekend movie with friends,Personal,Medium
+Decorate house for festival on Saturday,Personal,Medium
+Send thank you card by tomorrow,Personal,Low
+Complete coding assignment tonight,Study,High
+Review notes before test tomorrow,Study,High
+Revise chapter 8 in the morning,Study,Medium
+Read case study on AI this evening,Study,Medium
+Prepare project demo slides by Monday,Study,High
+Submit lab report on Thursday,Study,High
+Practice SQL before dinner,Study,Medium
+Finish reading textbook chapter by 9 PM,Study,Low
+Attend online class at 10 AM,Study,Medium
+Plan study schedule for next week,Study,Low
+Buy cleaning supplies at 5 PM,Errands,Medium
+Change bedsheets before sleeping,Errands,Low
+Mop the floor after lunch,Errands,Low
+Take out trash tonight,Errands,Low
+Book pest control for Sunday,Errands,Medium
+Order groceries online tomorrow morning,Errands,Medium
+Clean fan and lights on Sunday afternoon,Errands,Low
+Vacuum sofa at 3 PM,Errands,Low
+Polish shoes tonight,Errands,Low
+Clean mirror and windows,Errands,Low
+Plan monthly expenses at 8 PM,Finance,Medium
+Pay mutual fund SIP on 10th,Finance,High
+Send transaction receipt to accountant,Finance,Medium
+Recharge FASTag tomorrow,Finance,Medium
+Renew insurance policy next week,Finance,High
+Buy car insurance by 15th,Finance,High
+Set alert for EMI deduction date,Finance,Medium
+Pay house rent by evening,Finance,High
+Check UPI payments summary,Finance,Low
+Transfer allowance at night,Finance,Medium
+Fix UI bug before 4 PM,Work,High
+Deploy backend update at 9 PM,Work,High
+Submit client feedback form tomorrow,Work,Medium
+Send meeting invite at 10 AM,Work,High
+Prepare code review notes by EOD,Work,High
+Attend online training at 3 PM,Work,Medium
+Schedule interview for Thursday 2 PM,Work,High
+Share report with manager before 5 PM,Work,High
+Push code changes tonight,Work,Medium
+Sync repo before 8 PM,Work,Low
+Finish report by 5 PM today,Work,High
+Pay electricity bill right now,Finance,High
+Submit assignment before midnight,Study,High
+Doctor appointment in 30 minutes,Health,High
+Send project proposal by EOD,Work,High
+Pay rent before 8 PM,Finance,High
+Book flight tickets immediately,Errands,High
+Call the client urgently,Work,High
+Transfer money to supplier right away,Finance,High
+Fix server issue now,Work,High
+Take dad to hospital today,Health,High
+Pay internet bill today evening,Finance,High
+Email presentation before meeting starts,Work,High
+Buy medicines today after lunch,Health,High
+Schedule meeting for today at 3 PM,Work,High
+Submit project summary by morning,Work,High
+Deposit college fees today,Finance,High
+Complete homework due tonight,Study,High
+Prepare for viva tomorrow morning,Study,High
+Pay insurance premium before 10th,Finance,High
+Send invoice to client tonight,Finance,High
+Repair laptop before class starts,Errands,High
+Submit code review immediately,Work,High
+Attend meeting starting in 10 minutes,Work,High
+Doctor checkup today at 5 PM,Health,High
+Book appointment right now,Health,High
+Pay EMI before bank closes,Finance,High
+Respond to urgent email from HR,Work,High
+Finish writing report tonight,Work,High
+Deliver groceries before 8 PM,Errands,High
+Upload presentation by 11 AM,Study,High
+Pack bag for tomorrow’s event,Personal,High
+Book cab right now for airport,Errands,High
+Fix API bug urgently,Work,High
+Pay credit card bill due today,Finance,High
+Complete thesis before Friday,Study,High
+Submit exam form today,Study,High
+Refill prescription immediately,Health,High
+Join emergency call with manager,Work,High
+Send data file by 2 PM,Work,High
+Clean kitchen this weekend,Errands,Medium
+Buy vegetables tomorrow evening,Errands,Medium
+Prepare slides for Friday meeting,Work,Medium
+Revise notes for upcoming test,Study,Medium
+Plan monthly budget on Sunday,Finance,Medium
+Book dentist appointment next week,Health,Medium
+Update expense tracker tonight,Finance,Medium
+Call plumber tomorrow morning,Errands,Medium
+Submit weekly report by Thursday,Work,Medium
+Study for internal exam next week,Study,Medium
+Attend yoga session at 6 AM,Health,Medium
+Plan team lunch for Friday,Work,Medium
+Send proposal for review tomorrow,Work,Medium
+Water plants in the evening,Errands,Medium
+Book doctor appointment for Tuesday,Health,Medium
+Transfer savings on weekend,Finance,Medium
+Clean car on Saturday morning,Errands,Medium
+Organize documents before weekend,Work,Medium
+Study algorithms tomorrow,Study,Medium
+Prepare resume by next Monday,Work,Medium
+Buy groceries for the week,Errands,Medium
+Backup files on Sunday,Work,Medium
+Review notes before class,Study,Medium
+Renew subscription next week,Finance,Medium
+Schedule call with mentor,Personal,Medium
+Plan friend’s birthday gift,Personal,Medium
+Refill first aid kit this weekend,Health,Medium
+Submit project draft next Wednesday,Study,Medium
+Print bank statements tomorrow,Finance,Medium
+Finish slides by next Friday,Work,Medium
+Clean balcony on Sunday evening,Errands,Medium
+Organize photos in phone gallery,Personal,Medium
+Prepare shopping list tomorrow,Errands,Medium
+Check balance and transactions,Finance,Medium
+Buy books next weekend,Study,Medium
+Pay gas bill by Saturday,Finance,Medium
+Schedule vaccination next week,Health,Medium
+Clean wardrobe this Sunday,Errands,Medium
+Rehearse presentation tomorrow,Study,Medium
+Buy cake on Friday morning,Personal,Medium
+Watch a movie tonight,Personal,Low
+Go for a morning walk,Health,Low
+Listen to music before sleep,Personal,Low
+Read a book in evening,Personal,Low
+Play chess with brother,Personal,Low
+Arrange clothes neatly,Errands,Low
+Call friend casually,Personal,Low
+Practice sketching this week,Personal,Low
+Organize bookshelf,Errands,Low
+Bake cookies for fun,Personal,Low
+Take dog for walk after dinner,Personal,Low
+Decorate room tomorrow,Personal,Low
+Dust furniture today,Errands,Low
+Clean study table,Errands,Low
+Try new recipe this weekend,Personal,Low
+Watch YouTube videos,Personal,Low
+Read magazine before bed,Personal,Low
+Go cycling in the park,Health,Low
+Play guitar in evening,Personal,Low
+Paint something creative,Personal,Low
+Write in journal tonight,Personal,Low
+Do skincare before bed,Health,Low
+Buy new pen set,Errands,Low
+Rearrange desktop icons,Work,Low
+Sort photos on laptop,Personal,Low
+Stretch for 10 minutes,Health,Low
+Clean keyboard and mouse,Errands,Low
+Go for coffee tomorrow,Personal,Low
+Meditate for 5 minutes daily,Health,Low
+Charge smartwatch,Errands,Low
+Change bedsheets,Errands,Low
+Polish shoes,Errands,Low
+Feed cat breakfast,Personal,Low
+Make to-do list for tomorrow,Work,Low
+Check social media updates,Personal,Low
+Watch motivational video,Personal,Low
+Water indoor plants,Errands,Low
+Buy snacks for evening,Errands,Low
+Play mobile game,Personal,Low
+Check weather forecast,Errands,Low
+Clean the car this weekend,Errands,Medium
+Prepare slides for Friday,Work,Medium
+Study for exam next Wednesday,Study,Medium
+Plan family lunch on Sunday,Personal,Medium
+Book dentist appointment next week,Health,Medium
+Clean the house tomorrow morning,Errands,Medium
+Prepare slides for Friday’s presentation,Work,Medium
+Plan weekly budget this weekend,Finance,Medium
+Book doctor appointment for next Thursday,Health,Medium
+Organize work files by Saturday,Work,Medium
+Study for upcoming test on Tuesday,Study,Medium
+Buy groceries for next week,Errands,Medium
+Pay water bill before next Sunday,Finance,Medium
+Plan lunch with friends this weekend,Personal,Medium
+Book train tickets by Friday,Errands,Medium
+Review class notes tomorrow evening,Study,Medium
+Plan a family dinner on Saturday night,Personal,Medium
+Clean refrigerator this weekend,Errands,Medium
+Prepare report draft by Wednesday,Work,Medium
+Update project status tomorrow,Work,Medium
+Submit lab assignment next Monday,Study,Medium
+Call the plumber tomorrow morning,Errands,Medium
+Review expenses for this month,Finance,Medium
+Schedule haircut for Sunday,Errands,Medium
+Plan gym routine for next week,Health,Medium
+Reorganize bookshelf this weekend,Errands,Medium
+Set up doctor’s visit for Tuesday,Health,Medium
+Prepare seminar notes tomorrow,Study,Medium
+Buy vegetables tomorrow evening,Errands,Medium
+Plan weekend shopping,Personal,Medium
+Clean balcony after lunch,Errands,Medium
+Book vaccination for next Friday,Health,Medium
+Finish online course assignment this week,Study,Medium
+Send proposal by Thursday afternoon,Work,Medium
+Prepare client invoice by next Monday,Finance,Medium
+Backup files this weekend,Work,Medium
+Plan picnic with family next Sunday,Personal,Medium
+Organize wardrobe this Friday,Errands,Medium
+Pay insurance premium next week,Finance,Medium
+Plan presentation rehearsal on Thursday,Work,Medium
+Practice coding exercises tomorrow morning,Study,Medium
+Buy new clothes for event next week,Errands,Medium
+Prepare for group discussion on Monday,Study,Medium
+Clean kitchen on Saturday morning,Errands,Medium
+Pay mobile bill this weekend,Finance,Medium
+Schedule dentist checkup for next Wednesday,Health,Medium
+Plan grocery shopping list tonight,Errands,Medium
+Attend yoga class tomorrow morning,Health,Medium
+Revise subject notes on Sunday,Study,Medium
+Send thank you email tomorrow,Work,Medium
+Prepare for office meeting by Tuesday,Work,Medium
+Pay society maintenance fee this week,Finance,Medium
+Schedule laundry pickup for Saturday,Errands,Medium
+Call cousin this weekend,Personal,Medium
+Read new article on productivity,Study,Medium
+Organize photos on phone,Personal,Medium
+Plan movie outing this Sunday,Personal,Medium
+Order household essentials online,Errands,Medium
+Prepare slides for review session,Work,Medium
+Plan budget for next month,Finance,Medium
+Practice public speaking tomorrow,Study,Medium
+Plan weekly team sync for Monday,Work,Medium
+Book car service on Saturday,Errands,Medium
+Buy fruits and snacks for week,Errands,Medium
+Plan revision schedule tonight,Study,Medium
+Prepare client update by Friday,Work,Medium
+Pay Netflix subscription by Sunday,Finance,Medium
+Set reminder for meeting tomorrow,Work,Medium
+Write notes for upcoming test,Study,Medium
+Book physiotherapy for next week,Health,Medium
+Plan exercise routine for month,Health,Medium
+Update expense spreadsheet,Finance,Medium
+Prepare office agenda by weekend,Work,Medium
+Plan home cleaning on Sunday,Errands,Medium
+Attend skill webinar on Wednesday,Work,Medium
+Plan subject revision this weekend,Study,Medium
+Clean garden area tomorrow,Errands,Medium
+Book birthday cake for Friday,Personal,Medium
+Organize cupboard this Sunday,Errands,Medium
+Plan mini vacation for next weekend,Personal,Medium
+Prepare final report draft,Work,Medium
+Pay school fees this Saturday,Finance,Medium
+Plan for new fitness routine,Health,Medium
+Attend team catch-up meeting tomorrow,Work,Medium
+Book appointment with nutritionist next week,Health,Medium
+Clean desk and shelves tomorrow,Errands,Medium
+Practice for upcoming quiz,Study,Medium
+Buy stationery for school tomorrow,Errands,Medium
+Pay Wi-Fi bill by Sunday,Finance,Medium
+Plan sibling’s birthday surprise,Personal,Medium
+Read project material this weekend,Study,Medium
+Update software version tomorrow,Work,Medium
+Send expense receipts to manager,Finance,Medium
+Plan family outing next Sunday,Personal,Medium
+Recheck presentation slides,Work,Medium
+Clean car interior tomorrow,Errands,Medium
+Schedule parent-teacher meeting next week,Study,Medium
+Plan seminar outline for Monday,Study,Medium
+Organize drawer files this weekend,Work,Medium
+Order groceries tomorrow morning,Errands,Medium
+Book routine blood test next Tuesday,Health,Medium
+Plan exam study routine,Study,Medium
+Arrange photos in folder,Personal,Medium
+Clean windows this weekend,Errands,Medium
+Plan to renew insurance next month,Finance,Medium
+Send feedback report by Friday,Work,Medium
+Attend virtual workshop tomorrow,Work,Medium
+Book movie tickets for Saturday,Personal,Medium
+Schedule task reminders this weekend,Work,Medium
+Prepare summary notes by Sunday,Study,Medium
+Update system passwords,Work,Medium
+Clean wardrobe tomorrow afternoon,Errands,Medium
+Rearrange furniture this Sunday,Errands,Medium
+Plan group call with friends on weekend,Personal,Medium
+Backup documents by Friday,Work,Medium
+Buy monthly groceries tomorrow,Errands,Medium
+Send urgent email to client now,Work,High
+Pay rent before 8 PM tonight,Finance,High
+Call doctor immediately,Health,High
+Finish report by midnight,Work,High
+Submit project before deadline,Study,High
+Pay credit card bill today,Finance,High
+Fix production issue ASAP,Work,High
+Prepare for test today evening,Study,High
+Book doctor appointment right now,Health,High
+Attend meeting in 10 minutes,Work,High
+Clean laptop screen later,Errands,Low
+Watch YouTube video after dinner,Personal,Low
+Listen to songs while relaxing,Personal,Low
+Go for a short walk,Health,Low
+Fold clothes neatly,Errands,Low
+Read an article tonight,Personal,Low
+Write journal before bed,Personal,Low
+Stretch for 10 minutes,Health,Low
+Organize cables tomorrow,Errands,Low
+Charge phone before sleeping,Errands,Low
+Watch favorite movie tonight,Personal,Low
+Listen to songs before bed,Personal,Low
+Go for evening walk,Health,Low
+Clean drawer later,Errands,Low
+Play video game this weekend,Personal,Low
+Read magazine tomorrow,Personal,Low
+Water indoor plants later,Errands,Low
+Try new recipe next week,Personal,Low
+Arrange bookshelf when free,Errands,Low
+Call friend sometime this week,Personal,Low
+Write journal tonight,Personal,Low
+Clean mirror later,Errands,Low
+Fold clothes tomorrow evening,Errands,Low
+Read novel before sleep,Personal,Low
+Go for cycling on Sunday,Health,Low
+Decorate room this weekend,Personal,Low
+Practice guitar in free time,Personal,Low
+Clean sofa when possible,Errands,Low
+Plan picnic next weekend,Personal,Low
+Arrange photo album someday,Personal,Low
+Try baking cookies this week,Personal,Low
+Charge camera later,Errands,Low
+Update wallpaper tonight,Personal,Low
+Organize old files next week,Work,Low
+Watch documentary after dinner,Personal,Low
+Clean balcony tomorrow evening,Errands,Low
+Go shopping next month,Errands,Low
+Plan reading schedule,Study,Low
+Take dog for short walk,Personal,Low
+Organize closet next Sunday,Errands,Low
+Check hobby ideas online,Personal,Low
+Rearrange icons on laptop,Work,Low
+Watch tutorial this weekend,Study,Low
+Dust furniture later,Errands,Low
+Write blog post someday,Personal,Low
+Practice handwriting tomorrow,Study,Low
+Plan casual dinner next week,Personal,Low
+Sort clothes this weekend,Errands,Low
+Paint something creative,Personal,Low
+Clean keyboard later,Errands,Low
+Go out for tea tomorrow,Personal,Low
+Do meditation tonight,Health,Low
+Organize cables when free,Errands,Low
+Take photos during walk,Personal,Low
+Play chess with brother later,Personal,Low
+Plan to clean windows next month,Errands,Low
+Read random article online,Personal,Low
+Check latest songs later,Personal,Low
+Do skincare after dinner,Health,Low
+Polish shoes tomorrow morning,Errands,Low
+Arrange pens on desk later,Errands,Low
+Browse gadgets tonight,Personal,Low
+Sort emails on weekend,Work,Low
+Go jogging this Sunday,Health,Low
+Clean fridge next weekend,Errands,Low
+Cook something new tomorrow,Personal,Low
+Update app when free,Work,Low
+Buy snacks later,Errands,Low
+Organize downloads folder,Work,Low
+Watch stand-up show tonight,Personal,Low
+Go for coffee sometime,Personal,Low
+Sort bills next week,Finance,Low
+Dust shelves this weekend,Errands,Low
+Plan vacation ideas later,Personal,Low
+Clean study table after lunch,Errands,Low
+Plan garden decoration next week,Personal,Low
+Read poetry before bed,Personal,Low
+Polish utensils tomorrow,Errands,Low
+Update notes later,Study,Low
+Practice breathing exercise daily,Health,Low
+Play mobile game tonight,Personal,Low
+Go for a stroll after dinner,Personal,Low
+Organize stationery when possible,Errands,Low
+Check calendar events later,Work,Low
+Clean bathroom this Sunday,Errands,Low
+Plan dinner menu next week,Personal,Low
+Listen to podcast while relaxing,Personal,Low
+Vacuum carpet next weekend,Errands,Low
+Water plants daily evening,Health,Low
+Charge power bank later,Errands,Low
+Sort receipts later,Finance,Low
+Clean cupboard sometime this week,Errands,Low
+Go out for snack tonight,Personal,Low
+Read quotes before sleep,Personal,Low
+Arrange files when free,Work,Low
+Buy photo frame someday,Errands,Low
+Write poem tonight,Personal,Low
+Rearrange furniture next month,Errands,Low
+Watch cricket match this weekend,Personal,Low
+Browse recipes tomorrow,Personal,Low
+Do light workout later,Health,Low
+Clean windows sometime this week,Errands,Low
+Paint nails this weekend,Personal,Low
+Plan hobby list,Personal,Low
+Clean microwave later,Errands,Low
+Update profile photo later,Personal,Low
+Play board game with family,Personal,Low
+Check online sale casually,Personal,Low
+Arrange grocery list later,Errands,Low
+Clean fan blades tomorrow,Errands,Low
+Submit project by 5 PM today,Work,High
+Send urgent email to manager,Work,High
+Pay rent right now,Finance,High
+Book doctor appointment for this evening,Health,High
+Fix website error immediately,Work,High
+Transfer payment before 8 PM,Finance,High
+Call client ASAP,Work,High
+Finish report before meeting starts,Work,High
+Pay internet bill today,Finance,High
+Upload assignment tonight,Study,High
+Attend online class in 10 minutes,Study,High
+Recharge mobile immediately,Finance,High
+Submit exam form before midnight,Study,High
+Buy medicines right away,Health,High
+Complete slides before 3 PM,Work,High
+Pay credit card bill due today,Finance,High
+Join urgent meeting at 4 PM,Work,High
+Finish documentation before end of day,Work,High
+Send project summary tonight,Work,High
+Deposit fee before college closes,Finance,High
+Prepare for viva today,Study,High
+Book cab for airport now,Errands,High
+Call technician immediately,Errands,High
+Fix database issue ASAP,Work,High
+Submit timesheet by EOD,Work,High
+Pay house tax today,Finance,High
+Deliver parcel before 6 PM,Errands,High
+Take dad to doctor now,Health,High
+Complete urgent design change,Work,High
+Respond to HR message now,Work,High
+Send payment confirmation email,Finance,High
+Finish pending task list today,Work,High
+Prepare meeting notes before 2 PM,Work,High
+Book dentist for this evening,Health,High
+Pay school fees today,Finance,High
+Call mom immediately,Personal,High
+Finish writing report before lunch,Work,High
+Send invoice by 7 PM,Finance,High
+Fix bug blocking release,Work,High
+Buy ticket before 5 PM,Errands,High
+Pay gas bill now,Finance,High
+Prepare proposal today morning,Work,High
+Deliver groceries today,Errands,High
+Upload code changes before 8 PM,Work,High
+Submit expense claim today,Finance,High
+Send urgent feedback to client,Work,High
+Take medicine at 9 PM sharp,Health,High
+Book hospital slot immediately,Health,High
+Pay insurance premium today,Finance,High
+Finish final draft by 10 PM,Work,High
+Call bank right away,Finance,High
+Attend urgent Zoom call now,Work,High
+Pay electricity bill now,Finance,High
+Prepare demo presentation by noon,Work,High
+Submit college project tonight,Study,High
+Fix server issue immediately,Work,High
+Book cab for office now,Errands,High
+Send official document before 11 AM,Work,High
+Respond to support ticket immediately,Work,High
+Submit code review today,Work,High
+Book test slot before it closes,Study,High
+Pay phone bill this afternoon,Finance,High
+Call plumber urgently,Errands,High
+Deliver work files before evening,Work,High
+Send progress report by 6 PM,Work,High
+Recharge DTH connection now,Finance,High
+Book physiotherapy session today,Health,High
+Submit resume before 5 PM,Work,High
+Send urgent note to supplier,Work,High
+Finish project testing today,Work,High
+Buy groceries before 8 PM,Errands,High
+Email boss the report tonight,Work,High
+Pay broadband bill right now,Finance,High
+Submit thesis by morning,Study,High
+Upload presentation slides tonight,Work,High
+Pay invoice before deadline,Finance,High
+Finish homework due tonight,Study,High
+Fix app crash immediately,Work,High
+Send design mockups now,Work,High
+Pay tuition fee today,Finance,High
+Take dog to vet today evening,Health,High
+Deliver assignment before 9 AM,Study,High
+Submit final report tonight,Work,High
+Book lab test immediately,Health,High
+Pay EMI before bank closes,Finance,High
+Finish packaging order today,Work,High
+Send summary sheet by noon,Work,High
+Book urgent courier pickup,Errands,High
+Pay water bill today,Finance,High
+Respond to manager’s message now,Work,High
+Fix login issue before release,Work,High
+Pay parking fine today,Finance,High
+Submit attendance sheet now,Work,High
+Book ticket before midnight,Errands,High
+Pay hospital bill right away,Finance,High
+Send final proposal by 4 PM,Work,High
+Submit bug fix before demo,Work,High
+Pay subscription renewal today,Finance,High
+Send urgent SMS to team,Work,High
+Deliver parcel this afternoon,Errands,High
+Book doctor visit right now,Health,High
+Call vendor before 7 PM,Work,High
+Pay electricity charge today,Finance,High
+Send apology email immediately,Work,High
+Submit code before review meeting,Work,High
+Transfer money by evening,Finance,High
+Book maintenance service today,Errands,High
+Fix urgent production issue,Work,High
+Call school office now,Personal,High
+Pay Netflix bill today,Finance,High
+Submit article before 10 AM,Work,High
+Finish class assignment today,Study,High
+Send update email right now,Work,High
+Pay rent before 6 PM,Finance,High
+Call delivery guy immediately,Errands,High
+Upload file to drive now,Work,High
+Pay fuel bill before end of day,Finance,High
+Take vaccination today,Health,High
+Fix email issue now,Work,High
+Send urgent document by 1 PM,Work,High
+Book taxi immediately,Errands,High
+Pay hostel fee now,Finance,High
+Submit test paper before 5,Study,High
+Finish PPT design today,Work,High
+Respond to query immediately,Work,High
+Pay due bill before 9,Finance,High
+Deliver goods now,Errands,High
+Finish urgent call with manager,Work,High
+Book appointment before 8,Health,High
+Send invoice confirmation today,Finance,High
+Pay fees before 12,Finance,High
+Upload blog post tonight,Work,High
+Call HR right away,Work,High
+Send file urgently,Work,High
+Finish writing code today,Work,High
+Pay credit dues today,Finance,High
+Submit task update now,Work,High
+Book transport immediately,Errands,High
+Submit expense report today,Work,High
+Fix website downtime now,Work,High
+Respond to client before 3,Work,High
+Send thank you mail today,Work,High
+Pay maintenance today,Finance,High
+Take medicine before sleep,Health,High
+Finish urgent database query,Work,High
+Book meeting room immediately,Work,High
+Deliver cake before 7 PM,Errands,High
+Pay deposit now,Finance,High
+Watch a movie this weekend,Personal,Low
+Read a book after dinner,Personal,Low
+Clean shelf later,Errands,Low
+Go for a walk in the evening,Health,Low
+Organize photos when free,Personal,Low
+Try new recipe next month,Personal,Low
+Water plants tomorrow morning,Errands,Low
+Call friend sometime this week,Personal,Low
+Listen to podcast before sleep,Personal,Low
+Practice guitar in free time,Personal,Low
+Write journal tonight,Personal,Low
+Clean windows this weekend,Errands,Low
+Watch tutorial when possible,Study,Low
+Update app later,Work,Low
+Sort clothes next weekend,Errands,Low
+Do meditation daily night,Health,Low
+Plan casual lunch sometime,Personal,Low
+Rearrange desk tomorrow,Errands,Low
+Read article tonight,Personal,Low
+Fold clothes after washing,Errands,Low
+Submit report by 8 AM today,Work,High
+Attend client call at 9:30 AM sharp,Work,High
+Pay electricity bill before 7 PM,Finance,High
+Doctor appointment at 10:15 AM today,Health,High
+Send meeting summary by 11:45 AM,Work,High
+Deliver parcel at 12:30 PM today,Errands,High
+Call bank before 6 PM deadline,Finance,High
+Fix production bug by 4:15 PM,Work,High
+Submit project file at 3 PM,Work,High
+Pay rent at 9 PM tonight,Finance,High
+Send invoice by 8:45 AM,Work,High
+Book taxi for 5:30 AM tomorrow,Errands,High
+Upload assignment at 11:59 PM,Study,High
+Take medicine at 8 PM tonight,Health,High
+Join urgent meeting at 2:15 PM,Work,High
+Prepare slides at 10 AM tomorrow,Work,Medium
+Go for blood test at 7:30 AM next week,Health,Medium
+Study for exam at 6 PM tonight,Study,Medium
+Call friend at 8:30 PM tomorrow,Personal,Medium
+Plan grocery shopping at 11 AM Saturday,Errands,Medium
+Workout session at 5:15 PM today,Health,Medium
+Submit weekly budget at 9 AM Friday,Finance,Medium
+Attend practice class at 4 PM Monday,Study,Medium
+Clean house at 7 AM Sunday,Errands,Medium
+Plan presentation rehearsal at 3:30 PM,Work,Medium
+Watch movie at 9 PM Sunday,Personal,Low
+Go for walk at 6 AM tomorrow,Health,Low
+Read novel at 10 PM tonight,Personal,Low
+Water plants at 7 AM daily,Errands,Low
+Listen to songs at 8:45 PM,Personal,Low
+Cook new recipe at 1 PM Saturday,Personal,Low
+Meditate at 6:30 AM,Health,Low
+Clean desk at 3 PM Sunday,Errands,Low
+Play chess at 8 PM,Personal,Low
+Plan trip at 5 PM next week,Personal,Low
+Submit that damn report before 9 AM,Work,High
+Send final PPT to boss by 8:30 AM,Work,High
+Pay rent before 11 PM today or I’m doomed,Finance,High
+Book doctor appointment at 10 AM sharp,Health,High
+Take medicine by 8 PM,Health,High
+Don’t forget to pay the electricity bill by 7 PM,Finance,High
+Buy train tickets tonight at 9:30 PM,Errands,High
+Fix bug before stand-up at 10 AM,Work,High
+Submit attendance sheet by 11:59 PM,Work,High
+Transfer salary before 4 PM,Finance,High
+Book Uber at 7:15 AM tomorrow morning,Errands,High
+Upload assignment by midnight,Study,High
+Send the client update before 2 PM,Work,High
+Book dentist visit for 5:30 PM today,Health,High
+Call bank manager before 6 PM,Finance,High
+Prepare project slides by 9 AM sharp,Work,High
+Pay broadband bill tonight by 10 PM,Finance,High
+Send reminder email before 3 PM,Work,High
+Pick up parcel at 7 PM sharp,Errands,High
+Attend online class at 8 AM tomorrow,Study,High
+Pay credit card bill before 11:30 PM,Finance,High
+Finish documentation by 5 PM today,Work,High
+Respond to urgent HR message now,Work,High
+Pay OTT subscription before midnight,Finance,High
+Send meeting summary by 10 AM tomorrow,Work,High
+Call doctor now,Health,High
+Buy groceries at 8:15 PM,Errands,High
+Upload lab report by 6 PM,Study,High
+Book courier before 5 PM,Errands,High
+Fix server issue before 7:45 PM,Work,High
+Pay hostel rent today at 9 PM,Finance,High
+Book cab for 8:10 AM tomorrow,Errands,High
+Complete assignment before 11 PM,Study,High
+Deliver parcel before 2 PM,Errands,High
+Call plumber right now,Errands,High
+Take evening medicine at 7 PM sharp,Health,High
+Send status mail by 6 PM today,Work,High
+Pay water bill before 9 PM,Finance,High
+Book gas cylinder by 8 AM tomorrow,Errands,High
+Submit code by 3 PM today,Work,High
+Join urgent call at 10:30 AM,Work,High
+Pay for the groceries before 8:45 PM,Finance,High
+Upload final slides by 9:45 AM,Work,High
+Fix login error before noon,Work,High
+Call client at 4 PM sharp,Work,High
+Buy milk at 6:30 AM tomorrow,Errands,High
+Pay EMI before 11:55 PM,Finance,High
+Take prescription at 8 AM,Health,High
+Book Uber for 9 AM meeting,Errands,High
+Send feedback to teacher by 7 PM,Study,High
+Prepare notes by 8 PM tonight,Study,Medium
+Go walking at 6 AM tomorrow,Health,Medium
+Pay mobile bill this Friday at 9 AM,Finance,Medium
+Plan grocery shopping at 10 AM Saturday,Errands,Medium
+Practice coding at 7 PM tonight,Study,Medium
+Check credit card statement at 5 PM,Finance,Medium
+Call friend tomorrow evening,Personal,Medium
+Book haircut next Wednesday at 3 PM,Personal,Medium
+Do laundry at 11 AM Sunday,Errands,Medium
+Plan weekly budget at 9 AM Friday,Finance,Medium
+Clean the house at 8 AM tomorrow,Errands,Medium
+Attend revision session at 4 PM,Study,Medium
+Prepare for meeting at 9 PM,Work,Medium
+Update LinkedIn profile this evening,Work,Medium
+Go for check-up next week at 7 AM,Health,Medium
+Water the plants at 6:30 AM daily,Errands,Medium
+Pay subscription by Sunday night,Finance,Medium
+Call parents at 8:45 PM,Personal,Medium
+Cook dinner at 7:15 PM tonight,Personal,Medium
+Clean kitchen tomorrow at 6 PM,Errands,Medium
+Schedule yoga class at 5 AM Saturday,Health,Medium
+Check emails at 9:15 AM tomorrow,Work,Medium
+Revise Python chapter at 10 PM,Study,Medium
+Prepare report by next Monday,Work,Medium
+Backup laptop data on Sunday,Work,Medium
+Renew insurance next Friday at noon,Finance,Medium
+Book doctor slot next Tuesday at 11 AM,Health,Medium
+Do car wash at 4 PM Sunday,Errands,Medium
+Plan outing next weekend,Personal,Medium
+Write journal tomorrow at 10 PM,Personal,Medium
+Practice presentation at 8:15 PM,Work,Medium
+Buy vegetables after lunch at 2 PM,Errands,Medium
+Prepare for viva next Wednesday,Study,Medium
+Plan office party by 6 PM Friday,Work,Medium
+Pay Wi-Fi bill this week,Finance,Medium
+Clean wardrobe this Sunday morning,Errands,Medium
+Buy gift for mom at 5 PM,Personal,Medium
+Book train ticket tomorrow afternoon,Errands,Medium
+Maybe clean desk tomorrow evening,Errands,Low
+Water plants at 7 AM if I wake up,Errands,Low
+Go for a walk at 8 PM if mood permits,Health,Low
+Read novel before sleeping at 11 PM,Personal,Low
+Watch movie around 10 PM,Personal,Low
+Organize files when free this weekend,Work,Low
+Do yoga at 6 AM someday soon,Health,Low
+Plan trip at 9 PM someday,Personal,Low
+Fold laundry at 5:45 PM if possible,Errands,Low
+Call friend later tonight at 8:30 PM,Personal,Low
+Maybe study for test after 9 PM,Study,Low
+Clean cupboard at 4 PM when bored,Errands,Low
+Try new recipe at 7 PM someday,Personal,Low
+Do nothing today honestly,Personal,Low
+Water plants after 6 PM,Errands,Low
+Listen to songs at 9:45 PM,Personal,Low
+Rearrange books at 11 AM Sunday,Errands,Low
+Watch tutorial at 10 PM maybe,Study,Low
+Plan vacation when I feel like it,Personal,Low
+Go jogging at 7 AM someday,Health,Low
+Write blog at 8 PM next month,Work,Low
+Practice sketching after lunch,Personal,Low
+Clean window at 3 PM tomorrow (maybe),Errands,Low
+Update app sometime at night,Work,Low
+Meditate at 6:15 AM tomorrow,Health,Low
+Sleep early at 10 PM for once,Health,Low
+Call friend maybe next week,Personal,Low
+Cook something random at 1 PM,Personal,Low
+Play chess at 8 PM tomorrow,Personal,Low
+Sort wardrobe when free,Errands,Low
+Pay electricity bill now,Finance,High
+Submit report by 9 AM today,Work,High
+Fix login bug immediately,Work,High
+Send final PPT before 8 PM tonight,Work,High
+Take medicine right now,Health,High
+Book doctor appointment asap,Health,High
+Pay rent before 11 PM,Finance,High
+Transfer salary today itself,Finance,High
+Join urgent meeting at 10 AM,Work,High
+Buy groceries before 9 PM,Errands,High
+Send invoice right away,Finance,High
+Upload assignment by 11:59 PM,Study,High
+Call client immediately,Work,High
+Book cab for 7 AM sharp tomorrow,Errands,High
+Pay broadband bill asap,Finance,High
+Send status mail before lunch,Work,High
+Deliver parcel by 5 PM,Errands,High
+Submit attendance sheet today,Work,High
+Call plumber right now,Errands,High
+Finish slides by 8:30 AM,Work,High
+Take dog to vet at 6 PM today,Health,High
+Send feedback before 3 PM,Work,High
+Book blood test now,Health,High
+Pay tuition fee before 10 PM,Finance,High
+Send urgent mail to boss,Work,High
+Upload code to repo immediately,Work,High
+Pay credit-card bill this morning,Finance,High
+Book taxi right now,Errands,High
+Deliver report by 2 PM today,Work,High
+Fix server error asap,Work,High
+Attend doctor call at 8 AM,Health,High
+Book courier before 6 PM,Errands,High
+Pay water bill now,Finance,High
+Submit form before midnight,Study,High
+Send meeting notes by 9 AM,Work,High
+Pay subscription today itself,Finance,High
+Take evening pill at 7 PM sharp,Health,High
+Respond to HR mail immediately,Work,High
+Call electricity board asap,Finance,High
+Book Uber for 5:45 AM tomorrow,Errands,High
+Pay maintenance bill now,Finance,High
+Upload final document by 4 PM,Work,High
+Fix UI bug right away,Work,High
+Pay loan EMI today,Finance,High
+Deliver lunch to office by noon,Errands,High
+Send emergency update at 1 PM,Work,High
+Book lab test for 8 AM,Health,High
+Submit code changes before 6 PM,Work,High
+Pay gas bill before 10 AM,Finance,High
+Book meeting room immediately,Work,High
+Finish testing by 9 PM tonight,Work,High
+Call dad now,Personal,High
+Prepare slides later today,Work,Medium
+Go for walk at 7 PM this evening,Health,Medium
+Pay phone bill tomorrow morning,Finance,Medium
+Plan grocery shopping this weekend,Errands,Medium
+Study chapter 5 tonight after dinner,Study,Medium
+Book haircut for tomorrow 4 PM,Personal,Medium
+Clean kitchen this evening,Errands,Medium
+Renew insurance by Friday,Finance,Medium
+Backup files tomorrow morning,Work,Medium
+Call mom later today,Personal,Medium
+Practice coding at 9 PM tonight,Study,Medium
+Plan office meeting for Monday 10 AM,Work,Medium
+Buy medicines after lunch,Health,Medium
+Clean wardrobe this Sunday,Errands,Medium
+Schedule yoga at 6 AM Saturday,Health,Medium
+Send report by tomorrow 6 PM,Work,Medium
+Update LinkedIn profile tonight,Work,Medium
+Book doctor for next Wednesday,Health,Medium
+Pay Wi-Fi bill by this weekend,Finance,Medium
+Prepare for viva tomorrow,Study,Medium
+Call bank tomorrow 11 AM,Finance,Medium
+Plan dinner with family Friday 8 PM,Personal,Medium
+Buy vegetables tomorrow morning,Errands,Medium
+Clean balcony this Sunday morning,Errands,Medium
+Study for quiz tomorrow evening,Study,Medium
+Check mail after lunch,Work,Medium
+Cook dinner at 7 PM tonight,Personal,Medium
+Book train tickets Friday 10 AM,Errands,Medium
+Prepare monthly budget this evening,Finance,Medium
+Attend revision class tomorrow,Study,Medium
+Maybe clean desk tomorrow evening,Errands,Low
+Water plants at 7 AM if I wake up,Errands,Low
+Go for jog at 6 AM someday,Health,Low
+Read novel before sleeping at 11 PM,Personal,Low
+Watch movie around 9 PM Sunday,Personal,Low
+Fold laundry at 5 PM if possible,Errands,Low
+Plan trip whenever free,Personal,Low
+Do yoga at 7 AM someday soon,Health,Low
+Clean cupboard at 4 PM when bored,Errands,Low
+Try new recipe at 1 PM maybe,Personal,Low
+Study a bit tonight if I feel like it,Study,Low
+Listen to songs after dinner,Personal,Low
+Sort photos this weekend maybe,Personal,Low
+Call friend sometime next week,Personal,Low
+Rearrange books at 10 AM Sunday,Errands,Low
+Meditate at 6:30 AM when free,Health,Low
+Update app later tonight,Work,Low
+Clean window at 3 PM tomorrow (maybe),Errands,Low
+Write journal at 8 PM someday,Personal,Low
+Sleep early tonight if possible,Health,Low
+Plan hobby project someday soon,Personal,Low
+Go shopping next month maybe,Errands,Low
+Watch tutorial at 10 PM maybe,Study,Low
+Do yoga after 8 AM when free,Health,Low
+Read article sometime later,Study,Low
+Clean fridge next weekend,Errands,Low
+Organize files someday this week,Work,Low
+Practice guitar at 9 PM if mood,Personal,Low
+Call cousin whenever I remember,Personal,Low
+Plan vacation later this year,Personal,Low

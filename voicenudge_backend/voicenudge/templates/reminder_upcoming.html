@@ -1,0 +1,74 @@
+{% extends "email_base.html" %}
+
+{% block content %}
+<div class="reminder-notice">
+    <div style="text-align: center; margin-bottom: 25px;">
+        <div style="display: inline-block; background: linear-gradient(135deg, #48dbfb 0%, #0abde3 100%); color: white; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+            📅 Upcoming Task
+        </div>
+    </div>
+    
+    <p style="font-size: 18px; color: #2d3748; margin-bottom: 25px; text-align: center;">
+        <strong>Don't forget about this upcoming task!</strong> 📝
+    </p>
+    
+    <div class="task-card" style="border-left: 5px solid #48dbfb;">
+        <h2 class="task-title">📋 {{ task.title or task.text }}</h2>
+        
+        <div class="task-details">
+            {% if task.category %}
+            <div class="detail-row">
+                <span class="detail-icon">🏷️</span>
+                <span><strong>Category:</strong> {{ task.category }}</span>
+            </div>
+            {% endif %}
+            
+            <div class="detail-row">
+                <span class="detail-icon">⏰</span>
+                <span><strong>Due Date:</strong> {{ due_date_formatted }}</span>
+            </div>
+            
+            {% if task.priority %}
+            <div class="detail-row">
+                <span class="detail-icon">⚡</span>
+                <span><strong>Priority:</strong> 
+                    <span class="priority-badge priority-{{ task.priority.lower() }}">
+                        {{ task.priority.title() }}
+                    </span>
+                </span>
+            </div>
+            {% endif %}
+            
+            {% if task.description %}
+            <div class="detail-row">
+                <span class="detail-icon">📝</span>
+                <span><strong>Description:</strong> {{ task.description }}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-radius: 12px; padding: 20px; margin: 25px 0; border-left: 5px solid #22c55e;">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <span style="font-size: 24px; margin-right: 10px;">🌱</span>
+            <h3 style="margin: 0; color: #15803d; font-size: 16px;">Planning Ahead</h3>
+        </div>
+        <p style="margin: 0; color: #15803d; font-size: 14px;">
+            Great job staying organized! Consider starting this task early to avoid last-minute stress. 🎯
+        </p>
+    </div>
+    
+    <div style="background: linear-gradient(135deg, #fefce8 0%, #fef3c7 100%); border-radius: 12px; padding: 20px; margin: 25px 0; border-left: 5px solid #eab308;">
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <span style="font-size: 24px; margin-right: 10px;">✨</span>
+            <h3 style="margin: 0; color: #a16207; font-size: 16px;">Preparation Tips</h3>
+        </div>
+        <p style="margin: 0; color: #a16207; font-size: 14px;">
+            • Review the task requirements<br>
+            • Gather necessary resources<br>
+            • Block time in your calendar<br>
+            • Set up your workspace
+        </p>
+    </div>
+</div>
+{% endblock %}
