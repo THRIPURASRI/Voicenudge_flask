@@ -58,6 +58,7 @@ pydub
 # ---------------------
 pytest
 pytest-flask
+pytest-cov
 # ---------------------
 # Voice Authentication
 # ---------------------

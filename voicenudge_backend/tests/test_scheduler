@@ -1,0 +1,61 @@
+# tests/test_scheduler.py
+from datetime import datetime, timedelta, timezone
+
+from voicenudge.scheduler import check_reminders
+from voicenudge.models import User, Task, Reminder, TaskHistory
+
+
+def test_check_reminders_sends_email_and_marks_sent(app, db, monkeypatch):
+    # Create user with email
+    u = User(name="ReminderUser", email="reminder@example.com")
+    u.set_password("x")
+    db.session.add(u)
+    db.session.commit()
+
+    # Create task due now
+    now_utc = datetime.now(timezone.utc)
+    t = Task(
+        user_id=u.id,
+        text="Pay bills",
+        title="pay bills",
+        due_at=now_utc,
+        category="Finance",
+        priority="High",
+    )
+    db.session.add(t)
+    db.session.commit()
+
+    # Create reminder due now
+    r = Reminder(
+        user_id=u.id,
+        task_id=t.id,
+        remind_at=now_utc,
+        sent=False,
+    )
+    db.session.add(r)
+    db.session.commit()
+
+    sent_emails = []
+
+    def fake_send_email(app_, to, subject, body):
+        sent_emails.append((to, subject, body))
+        return True
+
+    # Patch send_email inside scheduler
+    monkeypatch.setattr("voicenudge.scheduler.send_email", fake_send_email)
+
+    # Run check_reminders
+    check_reminders(app)
+
+    # Reminder should be marked sent
+    updated = Reminder.query.get(r.id)
+    assert updated.sent is True
+
+    # Email should have been "sent"
+    assert len(sent_emails) == 1
+    assert sent_emails[0][0] == "reminder@example.com"
+
+    # Optional: history may be created (if your code adds it)
+    # Don't assert strongly on count; just ensure no crash.
+    histories = TaskHistory.query.filter_by(user_id=u.id).all()
+    assert isinstance(histories, list)

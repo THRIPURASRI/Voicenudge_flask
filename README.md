@@ -209,16 +209,9 @@ Pull requests are welcome!
 Please open an issue to discuss major changes.
 
 ---
-
-## 📄 License
-MIT License (or add your license here)
-
 ---
-
 ## ✨ Author
-**Thripurasri S**  
-B.Tech (Information Science & Engineering)  
-RV College of Engineering, Bengaluru
+**Thripurasri S** 
 
 ---
 
