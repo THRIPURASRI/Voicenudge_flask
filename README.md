@@ -200,10 +200,16 @@ Large model files tracked using:
 ```bash
 git lfs track "*.ckpt"
 ```
-```
-## Project Developer's
 
-Thripurasri S and Nikitha Santiago J
+---
+
+## 👨‍💻 Project Developers
+
+- **Thripurasri S**
+    Backend Lead • ML Pipelines • API Integrations • Backend Testing • DevOps & CI/CD 
+- **Nikitha Santiago: J**
+    Frontend Lead • React UI/UX • Voice Authentication • Frontend Testing
+
 ---
 
 ## 🤝 Contributing
@@ -212,11 +218,12 @@ Pull requests are welcome!
 Please open an issue to discuss major changes.
 
 ---
----
+
 ## ✨ Author
-**Thripurasri S** 
+**Thripurasri S**
 
 ---
 
-## ⭐ If you like this project…
+## ⭐ Enjoying the project?
+
 Give it a ⭐ on GitHub!
