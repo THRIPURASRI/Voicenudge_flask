@@ -205,9 +205,9 @@ git lfs track "*.ckpt"
 
 ## 👨‍💻 Project Developers
 
-- **Thripurasri S**
+- **Thripurasri S-**
     Backend Lead • ML Pipelines • API Integrations • Backend Testing • DevOps & CI/CD 
-- **Nikitha Santiago: J**
+- **Nikitha Santiago: J-**
     Frontend Lead • React UI/UX • Voice Authentication • Frontend Testing
 
 ---
