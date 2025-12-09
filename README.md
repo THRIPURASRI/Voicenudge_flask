@@ -201,6 +201,10 @@ Large model files tracked using:
 git lfs track "*.ckpt"
 ```
 
+## Project Developer's
+```
+Thripurasri S and Nikitha Santiago J
+```
 ---
 
 ## 🤝 Contributing
