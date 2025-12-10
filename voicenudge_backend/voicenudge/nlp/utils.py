@@ -33,7 +33,7 @@ def parse_task(text: str):
     )
 
     # --- Fallback if dateparser fails ---
-    if not due_at and "tomorrow" in text:
+    if not due_at and "tomorrow" in text.lower():
         # Look for patterns like "6 pm" / "10 am"
         match = re.search(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)", text, re.IGNORECASE)
         if match:
@@ -60,7 +60,8 @@ def parse_task(text: str):
     tokens = [t.lemma_.lower() for t in doc if not t.is_stop and t.is_alpha]
     title = " ".join(tokens) if tokens else text
 
+    # ✅ Return datetime directly
     return {
         "title": title.strip(),
-        "due_at": due_at.isoformat() if due_at else None
+        "due_at": due_at  # timezone-aware datetime or None
     }

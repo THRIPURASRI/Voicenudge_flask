@@ -1,15 +1,15 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from voicenudge.extensions import db
-from voicenudge.models import Task, TaskHistory
+from voicenudge.models import Task, TaskHistory, Reminder
 from voicenudge.nlp.utils import parse_task
 from voicenudge.ml.model_service import predict_category, predict_priority
 from voicenudge.speech.whisper_stt import transcribe_audio
-from voicenudge.models import Reminder
 from datetime import datetime, timedelta, timezone
 
 
 tasks_bp = Blueprint("tasks", __name__)
+
 
 def convert_ist_to_utc(ist_datetime_str):
     """Convert ISO 8601 datetime string from IST to UTC."""
@@ -22,9 +22,15 @@ def convert_ist_to_utc(ist_datetime_str):
         return utc_dt
     except Exception:
         return None
+
+
+REMINDER_OFFSET_MINUTES = 5  # send reminder 5 minutes before due_at
+
+
 # -------------------------
 # Ingest task via text
 # -------------------------
+
 
 @tasks_bp.route("/ingest_text", methods=["POST"])
 @jwt_required()
@@ -36,6 +42,7 @@ def ingest_text():
     if not text:
         return jsonify({"error": "No text provided"}), 400
 
+    # NLP pipeline extracts title + due_at (may be None)
     parsed = parse_task(text)
     category = predict_category(text)
     priority = predict_priority(text)
@@ -44,13 +51,20 @@ def ingest_text():
         user_id=uid,
         text=text,
         title=parsed["title"],
-        due_at=parsed["due_at"],   # may be None
+        due_at=parsed["due_at"],  # may be None
         category=category,
         priority=priority,
-        original_text=None
+        original_text=None,
     )
     db.session.add(task)
     db.session.commit()
+
+    # 🆕 Auto-create reminder if we have a due_at
+    if task.due_at:
+        remind_at = task.due_at - timedelta(minutes=REMINDER_OFFSET_MINUTES)
+        reminder = Reminder(task_id=task.id, user_id=uid, remind_at=remind_at)
+        db.session.add(reminder)
+        db.session.commit()
 
     response = {
         "id": task.id,
@@ -69,6 +83,8 @@ def ingest_text():
 # -------------------------
 # Ingest task via voice
 # -------------------------
+
+
 @tasks_bp.route("/voice_ingest", methods=["POST"])
 @jwt_required()
 def voice_ingest():
@@ -81,8 +97,9 @@ def voice_ingest():
     path = f"/tmp/{file.filename}"
     file.save(path)
 
-    raw_text = transcribe_audio(path, translate=False)       # native
-    translated_text = transcribe_audio(path, translate=True) # English
+    # Native + translated transcripts
+    raw_text = transcribe_audio(path, translate=False)  # native language
+    translated_text = transcribe_audio(path, translate=True)  # English for NLP/ML
 
     parsed = parse_task(translated_text)
     category = predict_category(translated_text)
@@ -93,12 +110,19 @@ def voice_ingest():
         text=translated_text,
         original_text=raw_text,
         title=parsed["title"],
-        due_at=parsed["due_at"],   # may be None
+        due_at=parsed["due_at"],  # may be None
         category=category,
         priority=priority,
     )
     db.session.add(task)
     db.session.commit()
+
+    # 🆕 Auto-create reminder if we have a due_at
+    if task.due_at:
+        remind_at = task.due_at - timedelta(minutes=REMINDER_OFFSET_MINUTES)
+        reminder = Reminder(task_id=task.id, user_id=uid, remind_at=remind_at)
+        db.session.add(reminder)
+        db.session.commit()
 
     response = {
         "id": task.id,
@@ -107,7 +131,7 @@ def voice_ingest():
         "category": task.category,
         "priority": task.priority,
         "transcribed_text": translated_text,
-        "original_text": raw_text
+        "original_text": raw_text,
     }
 
     if not task.due_at:
@@ -115,11 +139,10 @@ def voice_ingest():
 
     return jsonify(response), 201
 
+
 @tasks_bp.route("/<int:task_id>/set_due", methods=["PATCH"])
 @jwt_required()
 def set_due(task_id):
-    from datetime import datetime, timedelta, timezone
-
     uid = int(get_jwt_identity())
     task = Task.query.filter_by(id=task_id, user_id=uid).first_or_404()
 
@@ -145,7 +168,7 @@ def set_due(task_id):
     task.due_at = due_time_utc
 
     # ✅ Automatically create reminder 5 minutes before due time
-    remind_time_utc = due_time_utc - timedelta(minutes=5)
+    remind_time_utc = due_time_utc - timedelta(minutes=REMINDER_OFFSET_MINUTES)
     reminder = Reminder(task_id=task.id, user_id=uid, remind_at=remind_time_utc)
     db.session.add(reminder)
     db.session.commit()
@@ -154,39 +177,49 @@ def set_due(task_id):
     due_time_ist_display = due_time_utc.astimezone(ist_tz)
     remind_time_ist_display = remind_time_utc.astimezone(ist_tz)
 
-    return jsonify({
-        "message": f"Task {task.id} due date updated",
-        "due_at_utc": due_time_utc.isoformat(),
-        "remind_at_utc": remind_time_utc.isoformat(),
-        "due_at_ist": due_time_ist_display.strftime("%Y-%m-%d %H:%M:%S"),
-        "remind_at_ist": remind_time_ist_display.strftime("%Y-%m-%d %H:%M:%S")
-    }), 200
+    return jsonify(
+        {
+            "message": f"Task {task.id} due date updated",
+            "due_at_utc": due_time_utc.isoformat(),
+            "remind_at_utc": remind_time_utc.isoformat(),
+            "due_at_ist": due_time_ist_display.strftime("%Y-%m-%d %H:%M:%S"),
+            "remind_at_ist": remind_time_ist_display.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+    ), 200
+
 
 # -------------------------
 # List tasks (per user)
 # -------------------------
+
+
 @tasks_bp.route("/", methods=["GET"])
 @jwt_required()
 def list_tasks():
     uid = int(get_jwt_identity())
     tasks = Task.query.filter_by(user_id=uid).all()
-    return jsonify([
-        {
-            "id": t.id,
-            "title": t.title,
-            "due_at": str(t.due_at),
-            "category": t.category,
-            "priority": t.priority,
-            "status": t.status,
-            "text": t.text,
-            "original_text": t.original_text
-        } for t in tasks
-    ])
+    return jsonify(
+        [
+            {
+                "id": t.id,
+                "title": t.title,
+                "due_at": str(t.due_at),
+                "category": t.category,
+                "priority": t.priority,
+                "status": t.status,
+                "text": t.text,
+                "original_text": t.original_text,
+            }
+            for t in tasks
+        ]
+    )
 
 
 # -------------------------
 # Complete a task (moves to history)
 # -------------------------
+
+
 @tasks_bp.route("/<int:task_id>/complete", methods=["PATCH"])
 @jwt_required()
 def complete_task(task_id):
@@ -200,7 +233,7 @@ def complete_task(task_id):
         title=task.title,
         due_at=task.due_at,
         category=task.category,
-        priority=task.priority
+        priority=task.priority,
     )
 
     db.session.add(history)

@@ -26,6 +26,8 @@ Flask-APScheduler
 nltk
 spacy
 dateparser
+pytz
+
 
 # ---------------------
 # Machine Learning & Data
