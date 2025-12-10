@@ -226,4 +226,4 @@ Please open an issue to discuss major changes.
 
 ## ⭐ Enjoying the project?
 
-Give it a ⭐ on GitHub!
+Give it a ⭐ on GitHub!!!
